@@ -7,8 +7,9 @@ public class Test {
         System.out.println(sq.search("dog"));
         System.out.println(sq.search("cat"));
         System.out.println(sq.search("you"));
-        System.out.println(sq.search(" cat \\  dog  & you "));
         System.out.println("Use ( , ) , | , \\, & with spaces between");
+        System.out.println(sq.search("cat"));
+        System.out.println(sq.search(" cat \\  dog  & you "));
         Scanner sc = new Scanner(System.in);
         System.out.println(sq.search(sc.nextLine()));
     }
